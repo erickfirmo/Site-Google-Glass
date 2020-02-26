@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Saiba tudo sobre o Google Glass</title>
+	<link rel="stylesheet" href="_css/estilo.css"/>
+	<link rel="stylesheet" href="_css/specs.css"/>
+
+</head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
+<body>
+
+<!-- Interface -->
+<div id="interface">
+
+<!-- Cabeçalho principal -->
+<header id="cabecalho">
+	<hgroup>
+		<h1>Google Glass</h1>
+		<h2>A revolução do Google está chegando</h2>
+	</hgroup>
+
+	<img id="icone" src="_imagens/especificacoes.png"/>
+
+	<!-- Menu de navegação-->
+	<nav id="menu">
+		<h1>Menu Principal</h1>
+		<ul onmouseout="iconChange('especificacoes')" type="disc">
+			<li class="nao-clicado" onmouseover="iconChange('home')"><a href="index.html">Home</a></li>
+			<li class="clicado" onmouseover="iconChange('especificacoes')"><a href="specs.html"><span style="color: #ffffff;">Especificações</span></a></li>
+			<li class="nao-clicado" onmouseover="iconChange('fotos')"><a href="fotos.html">Fotos</a></li>
+			<li class="nao-clicado" onmouseover="iconChange('multimidia')"><a href="multimidia.html">Multimídia</a></li>
+			<li class="nao-clicado" onmouseover="iconChange('contato')"><a href="fale-conosco.html">Fale conosco</a></li>
+		</ul>
+	</nav>
+
+</header>
+
+
+<!-- Corpo -->
+<section id="corpo-full">
+	<article id="noticia-principal">
+		<!-- Cabeçalho corpo -->
+		<header id="cabecalho-artigo">
+			<hgroup>
+				<h3>Glass > Especificações</h3>
+				<h1>Raio-X no Google Glass</h1>
+				<h2>por Erick Serrano</h2>
+				<h3 class="direita">Atualizado em 23/Agosto/2017<h3>
+			</hgroup>
+		</header>
+
+		<p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+
+		<!-- Conteudo -->
+		<section id="conteudo">
+			
+			<img src="_imagens/glass-esquema-marcado.jpg" usemap="#glass-mapa"/>
+			<map name="glass-mapa">
+				<area shape="poly" coords="182,219,265,207,267,242,185,255" href="google-glass.html#tela" target="janela">
+				<area shape="circle" coords="158,244,10" href="google-glass.html#camera" target="janela"/>
+				<area shape="poly" coords="27,143,82,215,83,251,26,167" href="google-glass.html#sensores" target="janela"/>
+				<area shape="circle" coords="76,51,10" href="google-glass.html#gadgets" target="janela"/>
+			</map>
+			<iframe src="google-glass.html"  id="frame-specs" name="janela" scrolling="no"></iframe>
+		
+		</section>
+		<!--Fim Conteudo-->
+	</article>
+</section>
+<!-- Fim corpo -->
+		
+
+<footer id="rodape">
+
+<p>&copy; Copyright 2017 - by Erick Serrano
+<br/>	
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.facebook.com/" target="_blank">Facebook</a> |
+<a href="https://twitter.com/" target="_blank">Twitter</a></p>
+
+</footer>
+</div>
+</body>
+</html>
